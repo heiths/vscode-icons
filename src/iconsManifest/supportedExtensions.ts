@@ -2651,6 +2651,12 @@ export const extensions: IFileCollection = {
       format: FileFormat.svg,
     },
     {
+      icon: 'powershell_test',
+      extensions: ['tests.ps1'],
+      extensionsGlob: ['ps1'],
+      format: FileFormat.svg,
+    },
+    {
       icon: 'precommit',
       extensions: ['.pre-commit-config.yaml'],
       filename: true,
